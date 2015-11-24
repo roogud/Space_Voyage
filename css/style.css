@@ -19,9 +19,38 @@
 .my-lp-top {
 	padding-top: 100px;
 }
+.my-lp-bottom {
+	padding-bottom: 100px;
+}
+
+.my-mp-bottom {
+	padding-bottom: 50px;
+}
+.my-mp-top {
+	padding-top: 50px;
+}
+
 
 nav ul li:hover, nav ul li.active {
 	background-color: #3f51b5;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+h1 span {
+	padding: 0 20px;
+    background-color: #000000;
+    position: relative;
+    z-index: 5;
+}
+h1::before {
+	border-top: 5px solid #ffffff;
+    position: relative;
+    top: 35px;
+    content: "";
+    display: block;
 }
 
 h3 span {
@@ -38,6 +67,48 @@ h3::before {
     content: "";
     display: block;
 }
+div.planet-wrapper {
+	width: 100%;
+	background: black; /* Add background image of space here */
+}
+
+
+div.earth-container {
+    background: url(../img/pluto.png) no-repeat center; /* Change planet image here */
+}
+
+/* ZOOM ANIMATION OF PLANETS */
+div.rotation-animation {
+    height: 600px;
+    background-size: 60%;
+    -webkit-animation: infinite-spinning 80s ease infinite alternate;
+    -moz-animation: infinite-spinning 80s ease infinite alternate;
+    animation: infinite-spinning 80s ease infinite alternate;
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    animation-play-state: running;
+}
+@keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* ZOOM ANIMATION OF PLANETS */
+
+div.full-width-wrapper {
+	box-shadow: 0 3px 2px rgba(0,0,0,0.15),0 -3px 2px rgba(0,0,0,0.15);
+}
+
 .quiz-block {
 	height: 600px;
 	background-color: grey;
