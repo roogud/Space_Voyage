@@ -1,7 +1,5 @@
 nav {
-  color: $navbar-font-color;
   @extend .z-depth-1;
-  background-color: $primary-color;
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-height-mobile;
@@ -44,8 +42,11 @@ nav {
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
+    font-family: 'Righteous', cursive;
     padding: 0;
     white-space: nowrap;
+    letter-spacing: 3px;
+
 
     &.center {
       left: 50%;
@@ -93,6 +94,7 @@ nav {
       color: $navbar-font-color;
       display: block;
       padding: 0 15px;
+      font-family: 'Oswald', sans-serif;
     }
 
     &.left {

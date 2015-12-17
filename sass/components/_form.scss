@@ -9,7 +9,8 @@ button:focus {
 
 label {
   font-size: $label-font-size;
-  color: $input-border-color;
+  color: $silver;
+ font-family: 'Oswald', sans-serif;
 }
 
 /***************************
@@ -135,6 +136,7 @@ textarea.materialize-textarea {
   }
   label.active {
     font-size: $label-font-size;
+    color:$yellow;
     @include transform(translateY(-140%));
   }
 

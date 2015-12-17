@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
 
@@ -58,3 +59,6 @@ Chrome 35+, Firefox 31+, Safari 7+, IE 10+
 
 ## Contributing
 [Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+=======
+# Planets
+>>>>>>> cf74f507977c2ae049dcb02f113379d0adb5d1f7

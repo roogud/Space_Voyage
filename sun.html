@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Space Voyage - Sun</title>
+
+  <!--Google Web Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Righteous|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS  -->
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+<body>
+  
+ <!-- NAV -->
+  <nav class="grey darken-4" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Space Voyage</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="solarsystem.html">Solar System</a></li>
+        <li><a href="index.html">Planets</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="solarsystem.html">Solar System</a></li>
+        <li><a href="index.html">Planet</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- NAV -->
+  
+  <!-- PLANET WRAPPER -->
+  <!-- Backround replacement of a spaca background -->
+  <div class="planet-wrapper my-mp-top my-mp-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 planet-name">
+           <h1 class="header center">Sun</h1>
+        </div>
+          <!-- BACKGROUND REPLACEMENT -->
+        <div class="col s12 sun-container rotation-animation">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PLANET WRAPPER -->
+
+  <div class="full-width-wrapper">
+    <!-- CONTAINER -->
+    <div class="container section">
+      <div class="row">
+<div class="col m12">
+          <h3 class="center-align">
+            About
+          </h3>
+          <p>The sun is a star, a hot ball of glowing gases at the heart of our solar system. Its influence extends far beyond the orbits of distant Neptune and Pluto. Without the sun's intense energy and heat, there would be no life on Earth. And though it is special to us, there are billions of stars like our sun scattered across the Milky Way galaxy.</p>
+        </div>
+
+<div class="col m12">
+   <h3 class="center-align">
+  Facts
+   </h3>
+</div>
+
+        <div class="col m6">
+          <p>The Sun is a star that is in the center of the Solar System.</p>
+          <p>The Sun is recognized as having the largest mass in our Solar System.</p>
+          <p>The diameter of the Sun is 1.4 million km (870,000 miles)</p>
+          <p>The Sun’s distance from the Earth is 150 million km (93 million miles)</p>
+
+          <p>Earth orbits the Sun 365 days, yes, one year.</p>
+
+          <p>The Sun rotates once every 27 days at its equator, but only once every 31 days at its poles.</p>
+
+          <p>The Sun’s energy travels outwards.</p>
+
+          <p>The Sun’s core is composed of hot & dense gasses. It has a temperature of 15 million Kelvin(27 million°F)</p>
+
+          <p>The Sun is made up of 92% hydrogen, 7% helium and the remainder of various gasses.</p>
+
+          <p>The atmosphere of the Sun is composed of three areas: the photosphere, chromosphere, and solar corona.</p>
+
+          <p>Corona is the Sun’s outer atmosphere with temperatures that range from a few thousand kelvins to a few million kelvins.</p>
+
+        <p>Helmet streamers are big white regions that extend out from the Sun in which solar plasma are trapped by the magnetic field of the Sun.</p>
+
+        </div>
+
+        <div class="col m6">
+        
+
+        <p>Solar flares from the Sun are sudden bursts of brightness that happen in places near the sunspots.</p>
+
+        <p>Sunspots appear on the surface of the Sun and look dark because of the lower temperatures near it.</p>
+
+        <p>The internal structure of the Sun is composed of: the inner core, radiative, core, and the radiative core.</p>
+        
+        <p>The inner core is the hottest part of the Sun, and can reach 27 billion°F.</p>
+
+        <p>A solar eclipse occurs when Earth passes the shadow of the Moon.</p>
+
+        <p>A total solar eclipse occurs only during a new moon, which is when the moon sits directly between the Earth and the Sun.</p>
+
+        <p>Radiations of the Sun are in two forms, electromagnetic (photons) and particle (electrons, protons, alpha particles, etc.) radiation.</p>
+
+        <p>In February 1974, Skylab was the first manned spacecraft to study the Sun.</p>
+
+        <p>Solar flares occur when magnetic fields of the Sun come together and cause huge explosions on the Sun’s surface.</p>
+
+        <p>Solar flares produce bursts of electromagnetic radiation, x-rays, ultraviolet radiation, visible light, and radio waves.</p>
+
+        <p>Johann Rudolf Wolf, in 1848 developed a method to count sunspots which has been called Wolf number.</p>
+    
+      </div>
+    </div>
+  </div>
+    <!-- END OF CONTAINER -->
+  </div>
+
+  <div class="section container">
+    <div class="row">
+      <div class="col s12 center-align my-lm-bottom">
+        <h3>
+          <span>Find out how much you weigh on the Sun!</span>
+        </h3>
+      </div>
+      <div class="col s12 center align">
+        <div class="input-field col s12">
+<input type="text" id="wt" SIZE=5 ></td>
+<label for="first_name">Enter your weight on Earth</label>
+</div>
+
+<div class="input-field col s12">
+<input type="text" id="output" SIZE=6 ></td>
+<label for="first_name">Your weight on Sun is:</label>
+
+</div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/myscript.js"></script>
+  <script>var current_planet="sun";</script>
+  <script src="js/calculator.js"></script>
+
+
+  </body>
+</html>
