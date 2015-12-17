@@ -1,7 +1,11 @@
 nav {
+<<<<<<< HEAD
   color: $navbar-font-color;
   @extend .z-depth-1;
   background-color: $primary-color;
+=======
+  @extend .z-depth-1;
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-height-mobile;
@@ -44,8 +48,16 @@ nav {
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
+<<<<<<< HEAD
     padding: 0;
     white-space: nowrap;
+=======
+    font-family: 'Righteous', cursive;
+    padding: 0;
+    white-space: nowrap;
+    letter-spacing: 3px;
+
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
 
     &.center {
       left: 50%;
@@ -93,6 +105,10 @@ nav {
       color: $navbar-font-color;
       display: block;
       padding: 0 15px;
+<<<<<<< HEAD
+=======
+      font-family: 'Oswald', sans-serif;
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
     }
 
     &.left {

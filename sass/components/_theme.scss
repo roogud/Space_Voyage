@@ -1,0 +1,295 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.my-lm-bottom {
+	margin-bottom: 100px;
+}
+.my-lp-top {
+	padding-top: 100px;
+}
+.my-lp-bottom {
+	padding-bottom: 100px;
+}
+
+.my-mp-bottom {
+	padding-bottom: 50px;
+}
+.my-mp-top {
+	padding-top: 50px;
+}
+
+body{
+  background: url(../img/bg_final2.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor: url(../img/rocket_icon.png), auto;
+}  
+
+.icon-block{
+ padding-bottom: 60px;
+}
+
+nav ul li:hover, nav ul li.active {
+	background-color: #3f51b5;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: $yellow;
+    font-family: 'Righteous', cursive;
+}
+
+h5 {
+    color: $silver;
+    font-family: 'Righteous', cursive;
+    
+}
+
+h3{
+    color: $cream;
+    font-family: 'Righteous', cursive;
+
+}
+
+h2{
+    color:$silver;
+    font-family: 'Righteous', cursive;
+
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+input#wt{
+    color:$silver;
+     font-family: 'Oswald', sans-serif;
+}
+
+input#output{
+color: $silver !important;
+font-family: 'Oswald', sans-serif !important;
+}
+
+h1 span {
+	padding: 0 20px;
+    background-color: #000000;
+    position: relative;
+    z-index: 5;
+}
+/*h1::before {
+	border-top: 5px solid #ffffff;
+    position: relative;
+    top: 35px;
+    content: "";
+    display: block;
+}*/
+
+
+h3 span {
+	padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+
+p{
+ color: $silver;
+}
+
+/*h3::before {
+	border-top: 3px solid #000000;
+    position: relative;
+    top: 30px;
+    content: "";
+    display: block;
+}
+/*div.planet-wrapper {
+	width: 100%;
+	background: url(../img/bg_final.jpg); 
+ 
+}*/
+
+div.earth-container {
+    background: url(../img/earth.svg) no-repeat center; /* Change planet image here */
+}
+div.jupiter-container {
+    background: url(../img/jupiter.svg) no-repeat center; /* Change planet image here */
+}
+div.mars-container {
+    background: url(../img/mars.svg) no-repeat center; /* Change planet image here */
+}
+div.mercury-container {
+    background: url(../img/mercury.svg) no-repeat center; /* Change planet image here */
+}
+div.moon-container {
+    background: url(../img/moon.svg) no-repeat center; /* Change planet image here */
+}
+div.neptune-container {
+    background: url(../img/neptune.svg) no-repeat center; /* Change planet image here */
+}
+div.pluto-container {
+    background: url(../img/pluto.svg) no-repeat center; /* Change planet image here */
+}
+div.saturn-container {
+    background: url(../img/saturn.svg) no-repeat center; /* Change planet image here */
+}
+div.sun-container {
+    background: url(../img/sun_2.svg) no-repeat center; /* Change planet image here */
+}
+div.uranus-container {
+    background: url(../img/uranus.svg) no-repeat center; /* Change planet image here */
+}
+div.venus-container {
+    background: url(../img/venus.svg) no-repeat center; /* Change planet image here */
+}
+div.solarsystem-container {
+    background: url(../img/solar_system_final.png) no-repeat center; /* Change planet image here */
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    padding-top: 500px !important;
+}
+
+div.planet.rotation-animation>a>img{
+    width: 100px;
+    height: 100px;
+    border:0px;
+    margin: auto;
+
+}
+
+div.planet.rotation-animation{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+/* ZOOM ANIMATION OF PLANETS */
+div.rotation-animation{
+    height: 600px;
+    background-size: 50%;
+    -webkit-animation: infinite-spinning 80s infinite linear;
+    -moz-animation: infinite-spinning 80s infinite linear;
+    animation: infinite-spinning 80s infinite linear;
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    animation-play-state: running;
+}
+
+div.planet.rotation-animation{
+    height: 100px;
+    background-size: 60%;
+    -webkit-animation: infinite-spinning 20s infinite linear;
+    -moz-animation: infinite-spinning 20s infinite linear;
+    animation: infinite-spinning 20s infinite linear;
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    animation-play-state: running;
+}
+@keyframes infinite-spinning {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* ZOOM ANIMATION OF PLANETS */
+
+/*div.full-width-wrapper {
+	box-shadow: 0 3px 2px rgba(0,0,0,0.15),0 -3px 2px rgba(0,0,0,0.15);
+}*/
+
+.quiz-block {
+	height: 600px;
+	background-color: grey;
+}
+
+.page-footer{
+	height: 100px;
+	background-color: grey;
+
+}
+
+.grey.darken-4 {
+  background-color: none !important; }
+
+
+
+  /*QUIZ */
+
+p.pager{
+    margin:5px 0 5px;
+    font:bold 1em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#999;
+}
+
+img.question-image{
+    display:block;
+    max-width:250px;
+    margin:10px auto;
+    border:1px solid #ccc;
+    width:100%;
+    height:auto;
+}
+
+#choice-block{
+    display:block;
+    list-style:none;
+    margin:0;padding:0;
+}
+
+#submitbutton{
+    background:$cream;
+    font-family: 'Righteous', cursive;
+}
+
+#submitbutton:hover{
+    background:$yellow;
+}
+
+#explanation{
+    margin:0 auto;
+    padding:20px;
+    width:75%;
+}
+
+.choice-box{
+    background-color: #f1f1f1;
+    display:block;
+    text-align:center;
+    margin:8px auto;
+    padding:10px 0;
+    border:1px solid #666;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+li.choice.choice-box{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.cols12 #frame{
+    width:620px;
+    margin:0 auto;
+    padding:10px;
+}

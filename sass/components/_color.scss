@@ -7,6 +7,24 @@
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
 
+<<<<<<< HEAD
+=======
+// FINAL PROJECT COLORS//////__________
+$silver: #b5b5b5;
+$cream: #e0a365;
+$yellow: #ecb111;
+$h2-fontsize: 1.5rem !default;
+
+
+
+
+
+
+
+
+//FINAL PROJECT COLORS END!!!!^^^^^
+
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
 $materialize-red: (
   "lighten-5":  #fdeaeb,
   "lighten-4":  #f8c1c3,
@@ -161,7 +179,11 @@ $teal: (
   "lighten-4":  #b2dfdb,
   "lighten-3":  #80cbc4,
   "lighten-2":  #4db6ac,
+<<<<<<< HEAD
   "lighten-1":  #26a69a,
+=======
+  "lighten-1":  #ecb111,
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
   "base":       #009688,
   "darken-1":   #00897b,
   "darken-2":   #00796b,
@@ -224,7 +246,11 @@ $lime: (
   "accent-4":    #aeea00
 );
 
+<<<<<<< HEAD
 $yellow: (
+=======
+/*$yellow: (
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
   "lighten-5":  #fffde7,
   "lighten-4":  #fff9c4,
   "lighten-3":  #fff59d,
@@ -239,7 +265,11 @@ $yellow: (
   "accent-2":    #ffff00,
   "accent-3":    #ffea00,
   "accent-4":    #ffd600
+<<<<<<< HEAD
 );
+=======
+);*/
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
 
 $amber: (
   "lighten-5":  #fff8e1,
@@ -351,7 +381,10 @@ $colors: (
   "green": $green,
   "light-green": $light-green,
   "lime": $lime,
+<<<<<<< HEAD
   "yellow": $yellow,
+=======
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
   "amber": $amber,
   "orange": $orange,
   "deep-orange": $deep-orange,
@@ -362,13 +395,24 @@ $colors: (
 );
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
 // Color Classes
 
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
     @if $color_type == "base" {
       .#{$color_name} {
+<<<<<<< HEAD
         background-color: $color_value !important;
+=======
+        
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
       }
       .#{$color_name}-text {
         color: $color_value !important;
@@ -376,7 +420,11 @@ $colors: (
     }
     @else {
       .#{$color_name}.#{$color_type} {
+<<<<<<< HEAD
         background-color: $color_value !important;
+=======
+        
+>>>>>>> 2b3edd07a4a5ca84fc12d37b375afde5700ac784
       }
       .#{$color_name}-text.text-#{$color_type} {
         color: $color_value !important;
